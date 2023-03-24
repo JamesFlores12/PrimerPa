@@ -1,0 +1,29 @@
+:root{
+    --font-family-is: 'Inter', sans-serif;
+    --font-family-ld: 'Lexend Deca', sans-serif;
+    
+    /* ### Primary*/
+    --Very-dark-blue : hsl(233, 47%, 7%);
+    --Dark-desaturated-blue : hsl(244, 38%, 16%);
+    --Soft-violet : hsl(24, 64%, 61%);
+    
+    /*### Neutral*/
+    
+    --White : hsl(0, 0%, 100%);
+    --Slightly-transparent-white : hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white : hsla(0, 0%, 100%, 0.6);
+    
+    /* ## Typography*/
+    
+    /*### Body Copy*/
+    --Font-size: 15px;
+    }
+    body {
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        background: var(--Very-dark-blue);
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
